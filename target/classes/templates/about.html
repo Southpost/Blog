@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>关于我</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.css">
+    <link rel="stylesheet" href="../static/css/me.css">
+</head>
+
+<body>
+<!--导航-->
+<nav class="ui inverted attached segment m-padded-tb-mini">
+    <div class="ui container">
+        <div class="ui inverted secondary stackable menu">
+            <h2 class="ui teal header item">Blog</h2>
+            <a href="#" class="m-item item m-mobile-hide"><i class="mini home icon"></i>首页</a>
+            <a href="#" class="m-item item m-mobile-hide"><i class="mini idea icon"></i>分页</a>
+            <a href="#" class="m-item item m-mobile-hide"><i class="mini tags icon"></i>标签</a>
+            <a href="#" class="m-item item m-mobile-hide"><i class="mini clone icon"></i>归档</a>
+            <a href="#" class="m-item item m-mobile-hide"><i class="mini info icon"></i>关于我</a>
+            <!--搜索框去掉这句inverted transparent使其变白-->
+            <div class="right m-item item m-mobile-hide">
+                <div class="ui icon inverted transparent input">
+                    <input type="text" placeholder="Search...">
+                    <i class="search link icon"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+    <a href="#" class="ui menu toggle m-right-top m-mobile-show">
+        <i class="ui teal th list icon"></i>
+    </a>
+</nav>
+
+<!--中间内容-->
+<div class="m-container m-padded-tb-large">
+    <div class="ui container">
+        <!--grid的含义:左右布局-->
+        <div class="ui stackable grid">
+            <div class="eleven wide column">
+                <div class="ui segment">
+                    <img src="https://unsplash.it/800/600?image=30" alt="" class="ui rounded image">
+                </div>
+            </div>
+            <div class="five wide column">
+                <div class="ui top attached segment">
+                    <div class="ui header">关于我</div>
+                </div>
+                <div class="ui attached segment">
+                    <p class="m-text">石磊：一个独立开发者，折腾于 0 和 1 之间的阳光帅小；座右铭：学习无极限，有我才更美！！！</p>
+                    <p class="m-text">兴趣：热爱编程，喜欢虐大佬...</p>
+                </div>
+                <div class="ui attached segment">
+                    <div class="ui basic red left pointing label">编程</div>
+                    <div class="ui basic red left pointing label">打篮球</div>
+                    <div class="ui basic red left pointing label">看书</div>
+                    <div class="ui basic red left pointing label">虐人</div>
+                </div>
+                <div class="ui attached segment">
+                    <div class="ui basic teal label m-margin-tb-tiny">Java</div>
+                    <div class="ui basic teal label m-margin-tb-tiny">C++</div>
+                    <div class="ui basic teal label m-margin-tb-tiny">Spring Boot</div>
+                    <div class="ui basic teal label m-margin-tb-tiny">Mysql</div>
+                    <div class="ui basic teal label m-margin-tb-tiny">JavaScript</div>
+                    <div class="ui basic teal label m-margin-tb-tiny">RN</div>
+                    <div class="ui basic teal label m-margin-tb-tiny">Qt</div>
+                    <div class="ui basic teal label m-margin-tb-tiny">...</div>
+                </div>
+                <div class="ui bottom attached segment">
+                    <a href="#" class="ui circular icon button"><i class="github icon"></i></a>
+                    <a href="#" class="ui wechat circular icon button"><i class="weixin icon"></i></a>
+                    <a href="#" class="ui qq circular icon button" data-content="2113132982"><i class="qq icon"></i></a>
+                </div>
+                <!--鼠标滑过；出现图片-->
+                <div class="ui wechat-qr flowing popup transition hidden">
+                    <img src="../static/images/wechat.jpg" alt="" class="ui rounded image" style="width: 100px">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--底部-->
+<footer class="ui inverted vertical segment m-padded-tb-massive">
+    <div class="ui center aligned container">
+        <!--可以一列一列的写内容-->
+        <div class="ui inverted divided stackable grid">
+            <div class="three wide column">
+                <div class="ui inverted link list">
+                    <div class="item">
+                        <img src="../static/images/wechat.jpg" class="ui rounded imag" alt="" style="width:120px">
+                    </div>
+                </div>
+            </div>
+            <div class="three wide column">
+                <h4 class="ui inverted header m-text-lined m-text-spaced m-opacity-mini">最新博客</h4>
+                <div class="ui inverted link list">
+                    <a href="#" class="item">用户故事(User Story)</a>
+                    <a href="#" class="item">用户故事(User Story)</a>
+                    <a href="#" class="item">用户故事(User Story)</a>
+                </div>
+            </div>
+            <div class="three wide column">
+                <h4 class="ui inverted header m-text-lined m-text-spaced m-opacity-mini">联系我</h4>
+                <div class="ui inverted link list">
+                    <a href="#" class="item">QQ：2113132982</a>
+                    <a href="#" class="item">手机：19825089387</a>
+                    <a href="#" class="item">Email:b18030315@njupt.edu.cn</a>
+                </div>
+            </div>
+            <div class="seven wide column">
+                <h4 class="ui inverted header m-text-lined m-text-spaced m-opacity-mini">Blog</h4>
+                <p class="m-text-spaced m-text-lined m-opacity-mini">这是我的个人博客，会分享关于编程、写作、思考相关的任何内容，希望可以给来到这里的人带来帮助...</p>
+            </div>
+        </div>
+        <div class="ui inverted section divider"></div>
+        <p class="m-opacity-mini m-text-lined m-text-spaced ">Copyright @ 2019-2020 Blog Designed by shilei</p>
+    </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.2/dist/jquery.min.js"></script>>
+<script src="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.js"></script>
+
+<script>
+    $('.menu.toggle').click(function () {
+        $('.m-item').toggleClass('m-mobile-hide');
+    });
+    <!--当点击微信，弹出wechat-qr-->
+    $('.wechat').popup({
+        popup:$('.wechat-qr'),
+        on:'hover',
+        position:'top center'
+    });
+    <!--鼠标划过去会出现：2113132982，定义了个qq-->
+    $('.qq').popup();
+</script>
+</body>
+</html>
